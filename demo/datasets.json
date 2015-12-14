@@ -1,5 +1,11 @@
 {
   "datasets": [
+     {  
+      "id": "boxing_ranking",
+      "baseURL": "data",
+      "descriptionFile": "boxing.json",
+      "name": "Boxing Rankings"
+      },
     {
       "id": "uni",
       "baseURL": "data",

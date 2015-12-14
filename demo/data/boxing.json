@@ -1,0 +1,53 @@
+{
+  "file": "boxing_ranking.csv",
+  "separator": ",",
+  "primaryKey": "Fighter",
+  "columns": [
+    {
+      "column": "Fighter",
+      "type": "string"
+    },
+    {
+      "column": "Division",
+      "type": "string"
+    },
+    {
+      "column": "Stance",
+      "type": "string"
+    },
+    {
+      "column": "top10_wins",
+      "type": "number",
+      "domain": [0, 1]
+    },
+      {
+      "column": "elo_avg",
+      "type": "number",
+      "domain": [800, 2000]
+    },
+      {
+      "column": "elo_max",
+      "type": "number",
+      "domain": [800, 2000]
+    },  
+    {
+      "column": "years_in_top10",
+      "type": "number",
+      "domain": [0, 30]
+    },
+     {
+      "column": "years_champ",
+      "type": "number",
+      "domain": [0, 20]
+    },
+    {
+      "column": "ko_percentage",
+      "type": "number",
+      "domain": [0, 1]
+    },    {
+      "column": "win_percentage",
+      "type": "number",
+      "domain": [0, 1]
+    }
+        ]
+}
