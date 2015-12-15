@@ -54,5 +54,60 @@
       "type": "number",
       "domain": [0, 1]
     }
+        ],
+          "layout": {
+    "primary": [
+      {
+        "column": "Fighter",
+        "width": 100
+      },
+         {
+        "column": "Division",
+        "width": 100
+      },
+          {
+        "column": "Stance",
+        "width": 100
+      },
+
+      {
+        "type": "stacked",
+        "label": "Combined",
+        "children": [
+          {
+            "column": "top10_wins",
+            "width": 100
+          },
+          {
+            "column": "elo_avg",
+            "width": 100
+          },
+          {
+            "column": "elo_max",
+            "width": 100
+          },
+          {
+            "column": "opp_elo_avg",
+            "width": 100
+          },
+          {
+            "column": "years_in_top10",
+            "width": 100
+          },
+          {
+            "column": "years_champ",
+            "width": 100
+          },
+           {
+            "column": "ko_percentage",
+            "width": 100
+          },
+           {
+            "column": "win_percentage",
+            "width": 100
+          }
         ]
+      }
+    ]
+  }
 }
