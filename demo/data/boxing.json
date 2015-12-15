@@ -30,6 +30,11 @@
       "type": "number",
       "domain": [800, 2000]
     },  
+      {
+      "column": "opp_elo_avg",
+      "type": "number",
+      "domain": [800, 2000]
+    }, 
     {
       "column": "years_in_top10",
       "type": "number",
