@@ -1,7 +1,7 @@
 {
   "datasets": [
      {  
-      "id": "boxing_ranking",
+      "id": "boxing_ranking_new",
       "baseURL": "data",
       "descriptionFile": "boxing.json",
       "name": "Boxing Rankings"
