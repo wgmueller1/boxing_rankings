@@ -55,6 +55,7 @@
       "domain": [0, 1]
     }
         ],
+        "sortBy":"Combined",
           "layout": {
     "primary": [
       {
