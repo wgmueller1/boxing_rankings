@@ -55,8 +55,9 @@
       "domain": [0, 1]
     }
         ],
+      "sortBy": "Combined",
           "layout": {
-    
+     "primary": [
       {
         "column": "Fighter",
         "width": 100
@@ -69,7 +70,6 @@
         "column": "Stance",
         "width": 100
       },
-      "primary": [
       {
         "type": "stacked",
         "label": "Combined",
