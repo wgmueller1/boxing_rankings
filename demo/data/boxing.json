@@ -1,5 +1,5 @@
 {
-  "file": "boxing_ranking.csv",
+  "file": "boxing_ranking_new.csv",
   "separator": ",",
   "primaryKey": "Fighter",
   "columns": [
