@@ -61,6 +61,10 @@
       "column": "time_lineal_champ",
       "type": "number",
       "domain": [0, 15]
+    },{
+      "column": "lineal_weight_classes",
+      "type": "number",
+      "domain": [0, 5]
     }
         ],
       "sortBy": "Combined",
@@ -119,7 +123,11 @@
           },    {
             "column": "time_lineal_champ",
             "width": 100
-          }
+          }, {
+            "column": "lineal_weight_classes",
+            "width": 100
+          },
+          
         ]
       }
     ]
