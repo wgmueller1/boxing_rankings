@@ -1,5 +1,5 @@
 {
-  "file": "boxing_ranking.csv",
+  "file": "boxing_ranking_new.csv",
   "separator": ",",
   "primaryKey": "Fighter",
   "columns": [
@@ -53,11 +53,19 @@
       "column": "win_percentage",
       "type": "number",
       "domain": [0, 1]
+    },{
+      "column": "lineal_titles",
+      "type": "number",
+      "domain": [0, 10]
+    },{
+      "column": "time_lineal_champ",
+      "type": "number",
+      "domain": [0, 15]
     }
         ],
-        "sortBy":"Combined",
+      "sortBy": "Combined",
           "layout": {
-    "primary": [
+     "primary": [
       {
         "column": "Fighter",
         "width": 100
@@ -70,7 +78,6 @@
         "column": "Stance",
         "width": 100
       },
-
       {
         "type": "stacked",
         "label": "Combined",
@@ -105,6 +112,12 @@
           },
            {
             "column": "win_percentage",
+            "width": 100
+          },    {
+            "column": "lineal_titles",
+            "width": 100
+          },    {
+            "column": "time_lineal_champ",
             "width": 100
           }
         ]
