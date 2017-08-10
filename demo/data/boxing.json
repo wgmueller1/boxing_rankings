@@ -23,17 +23,17 @@
       {
       "column": "elo_avg",
       "type": "number",
-      "domain": [800, 2000]
+      "domain": [800, 3000]
     },
       {
       "column": "elo_max",
       "type": "number",
-      "domain": [800, 2000]
+      "domain": [800, 3000]
     },  
       {
       "column": "opp_elo_avg",
       "type": "number",
-      "domain": [800, 2000]
+      "domain": [800, 3000]
     }, 
     {
       "column": "years_in_top10",
